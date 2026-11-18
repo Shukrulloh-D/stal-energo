@@ -1,0 +1,13 @@
+.price-label {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.price-label-link {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a.price-label-link:hover {
+  color: var(--green);
+}

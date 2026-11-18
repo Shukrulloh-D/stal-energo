@@ -1,0 +1,72 @@
+.catalog-menu {
+  position: relative;
+}
+
+.catalog-menu-button {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 140px;
+  height: 34px;
+  padding: 0 14px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #fff;
+  text-transform: uppercase;
+  background: var(--green);
+  border-radius: 2px;
+}
+
+.catalog-menu-button:hover {
+  background: var(--green-dark);
+}
+
+.catalog-menu-panel {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 60;
+  display: flex;
+  align-items: flex-start;
+}
+
+.catalog-menu-list,
+.catalog-menu-sub {
+  background: #fff;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+}
+
+.catalog-menu-list {
+  width: 230px;
+  padding: 6px 0;
+}
+
+.catalog-menu-sub {
+  min-width: 200px;
+  padding: 10px 0;
+  margin-left: 6px;
+}
+
+.catalog-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 14px;
+  font-size: 11px;
+}
+
+.catalog-menu-item-active {
+  color: var(--green);
+}
+
+.catalog-menu-sub a {
+  display: block;
+  padding: 8px 16px;
+  font-size: 11px;
+}
+
+.catalog-menu-sub a:hover {
+  color: var(--green);
+}

@@ -1,0 +1,10 @@
+.empty-state {
+  padding-top: 56px;
+  padding-bottom: 72px;
+}
+
+.empty-state-text {
+  max-width: 420px;
+  margin-bottom: 20px;
+  color: var(--muted);
+}

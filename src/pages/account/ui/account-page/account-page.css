@@ -1,0 +1,38 @@
+.account-page {
+  padding-top: 28px;
+  padding-bottom: 48px;
+}
+
+.account-page-head {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.account-page-head .page-title {
+  margin-bottom: 0;
+}
+
+.account-page-tabs {
+  display: flex;
+  gap: 36px;
+  margin-bottom: 28px;
+}
+
+.account-tab {
+  padding-bottom: 6px;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+}
+
+.account-tab:hover {
+  color: var(--green);
+}
+
+.account-tab-active {
+  border-color: var(--green);
+}

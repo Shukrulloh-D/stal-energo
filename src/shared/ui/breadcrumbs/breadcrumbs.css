@@ -1,0 +1,19 @@
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 10px;
+}
+
+.breadcrumbs-item + .breadcrumbs-item::before {
+  content: '|';
+  margin: 0 8px;
+  color: var(--line);
+}
+
+.breadcrumbs a:hover {
+  color: var(--green);
+}
+
+.breadcrumbs-last {
+  color: #aaa;
+}

@@ -1,0 +1,11 @@
+.logo-carousel-item {
+  display: grid;
+  place-items: center;
+  height: 90px;
+}
+
+.logo-carousel-item img {
+  max-width: 150px;
+  max-height: 70px;
+  object-fit: contain;
+}

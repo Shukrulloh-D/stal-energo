@@ -1,0 +1,44 @@
+.price-lists-page {
+  padding-top: 28px;
+  padding-bottom: 40px;
+}
+
+.price-lists-head {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.price-lists-head .page-title {
+  margin-bottom: 0;
+}
+
+.price-file {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 24px 8px;
+  font-size: 10px;
+  border-bottom: 1px solid var(--line);
+  transition: background-color 0.2s;
+}
+
+.price-file:hover {
+  background: var(--bg);
+}
+
+.price-file-title {
+  flex: 1;
+}
+
+.price-file-download {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.price-file:hover .price-file-download {
+  color: var(--green);
+}

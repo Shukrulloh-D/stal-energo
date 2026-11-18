@@ -1,0 +1,18 @@
+.order-page {
+  padding-top: 28px;
+  padding-bottom: 48px;
+}
+
+.order-page-head {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid var(--line);
+}
+
+.order-page-head .page-title {
+  margin-bottom: 0;
+}

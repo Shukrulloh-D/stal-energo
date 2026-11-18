@@ -1,0 +1,82 @@
+.mini-cart {
+  position: relative;
+}
+
+.mini-cart-button {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+}
+
+.mini-cart-badge {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #fff;
+  text-align: center;
+  background: var(--green);
+  border-radius: 8px;
+}
+
+.mini-cart-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 60;
+  width: 320px;
+  max-height: 80vh;
+  padding: 14px;
+  overflow-y: auto;
+  background: #fff;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
+}
+
+.mini-cart-empty {
+  padding: 12px 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.mini-cart-item {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.mini-cart-name {
+  margin-bottom: 8px;
+  font-size: 10px;
+}
+
+.mini-cart-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+}
+
+.mini-cart-remove {
+  color: var(--red);
+}
+
+.mini-cart-total {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+  font-size: 12px;
+}
+
+.mini-cart-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+}

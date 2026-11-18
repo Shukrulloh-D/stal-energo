@@ -1,0 +1,25 @@
+.pagination {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.pagination-item {
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  font-size: 11px;
+  border-radius: 2px;
+}
+
+.pagination-item:hover {
+  color: var(--green);
+}
+
+.pagination-active {
+  background: #e6e6e6;
+}
+
+.pagination-dots {
+  font-size: 11px;
+}

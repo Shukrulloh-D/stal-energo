@@ -1,0 +1,44 @@
+.orders-wrap {
+  overflow-x: auto;
+}
+
+.orders {
+  width: 100%;
+  min-width: 640px;
+  font-size: 10px;
+  border-collapse: collapse;
+}
+
+.orders th {
+  padding: 8px 10px 8px 0;
+  font-weight: 400;
+  color: var(--muted);
+  text-align: left;
+}
+
+.orders td {
+  padding: 18px 10px 18px 0;
+  vertical-align: top;
+  border-top: 1px solid var(--line);
+}
+
+.orders p {
+  margin-bottom: 4px;
+}
+
+.orders-toggle {
+  margin-top: 4px;
+  font-size: 9px;
+  color: var(--muted);
+  text-decoration: underline;
+}
+
+.orders-toggle:hover {
+  color: var(--green);
+}
+
+.orders-pagination {
+  display: flex;
+  justify-content: center;
+  padding: 28px 0 8px;
+}
