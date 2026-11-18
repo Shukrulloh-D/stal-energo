@@ -1,16 +1,16 @@
-import { Route, Routes } from 'react-router-dom'
-import { AboutPage } from '@/pages/about'
-import { AccountPage } from '@/pages/account'
-import { CategoryPage } from '@/pages/category'
-import { DeliveryPage } from '@/pages/delivery'
-import { HomePage } from '@/pages/home'
-import { NotFoundPage } from '@/pages/not-found'
-import { OrderPage } from '@/pages/order'
-import { PriceListsPage } from '@/pages/price-lists'
-import { ProductPage } from '@/pages/product'
-import { ProductListPage } from '@/pages/product-list'
-import { ServicesPage } from '@/pages/services'
-import { Layout } from './layout/layout'
+import { Route, Routes } from "react-router-dom";
+import { AboutPage } from "@/pages/about";
+import { AccountPage } from "@/pages/account";
+import { CategoryPage } from "@/pages/category";
+import { DeliveryPage } from "@/pages/delivery";
+import { HomePage } from "@/pages/home";
+import { NotFoundPage } from "@/pages/not-found";
+import { OrderPage } from "@/pages/order";
+import { PriceListsPage } from "@/pages/price-lists";
+import { ProductPage } from "@/pages/product";
+import { ProductListPage } from "@/pages/product-list";
+import { ServicesPage } from "@/pages/services";
+import { Layout } from "./layout/layout";
 
 export function AppRouter() {
   return (
@@ -31,5 +31,5 @@ export function AppRouter() {
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>
-  )
+  );
 }
